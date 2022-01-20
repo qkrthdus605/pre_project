@@ -1,5 +1,5 @@
 import React from "react";
-import PropTypes from "prop-types";
+// import PropTypes from "prop-types";
 
 const Person = ({name, age}) => {
   return(
@@ -15,9 +15,9 @@ const Person = ({name, age}) => {
 //   name: "디폴트",
 // }
 
-Person.propTypes = {
-  name: propTypes.string,
-  age: propTypes.number,
-}
+// Person.propTypes = {
+//   name: propTypes.string,
+//   age: propTypes.number,
+// }
 
 export default Person;
